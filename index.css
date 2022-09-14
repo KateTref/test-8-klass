@@ -1,0 +1,55 @@
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.wrapper {
+    margin: 100px 150px 100px 150px;
+    
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+    margin-top: -50px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: chartreuse;
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.link {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 24px;
+    color: orangered ; 
+    font-weight: 900;
+    
+}
